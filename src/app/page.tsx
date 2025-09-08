@@ -10,7 +10,6 @@ import HoChiMinhSection from "./components/HoChiMinhSection";
 import HoChiMinhAbout from "./components/HoChiMinhAbout";
 import HoChiMinhShishaCards from "./components/HoChiMinhShishaCards";
 import HoChiMinhDrinks from "./components/HoChiMinhDrinks";
-import HoChiMinhContact from "./components/HoChiMinhContact";
 
 export default function Home() {
   return (
@@ -22,12 +21,12 @@ export default function Home() {
       <About />
       <ShishaCards />
       <Drinks />
-      <Contact />
+      
       <HoChiMinhSection />
       <HoChiMinhAbout />
       <HoChiMinhShishaCards />
       <HoChiMinhDrinks />
-      <HoChiMinhContact />
+      <Contact />
     </div>
   );
 }

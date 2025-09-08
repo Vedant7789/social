@@ -10,14 +10,14 @@ export default function MarqueeGallery() {
     <section id="da-nang-section" className="relative flex min-h-fit w-full flex-col items-center justify-center md:min-h-screen bg-white text-black">
       {/* Title */}
       <span
-        className="my-12 w-full text-center text-[34px] uppercase leading-tight tracking-tight md:text-[100px] text-black"
-        style={{ opacity: 1, transform: "translateY(120px) scale(0.8)" }}
+        className="my-12 w-full text-center text-[34px] uppercase leading-tight tracking-tight md:text-[100px] text-black relative z-10"
+        style={{ opacity: 1, transform: "translateY(0px) scale(0.8)" }}
       >
         Da Nang&apos;s Ultimate shisha Experience
       </span>
 
       {/* Marquee */}
-      <div className="my-12 w-full overflow-hidden">
+      <div className="my-12 w-full overflow-hidden relative z-0">
         <Marquee speed={50} gradient={false} pauseOnHover={true}>
           {images.concat(images).map((src, idx) => (
             <div key={idx} className="mx-3" style={{ width: 280, height: 380 }}>
