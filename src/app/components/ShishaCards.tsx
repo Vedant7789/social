@@ -16,7 +16,7 @@ const shishas = [
 
 export default function ShishaCards() {
   return (
-    <section className="relative my-12 flex flex-col items-center gap-20 overflow-x-auto bg-white text-black">
+    <section className="relative  flex flex-col items-center gap-20 overflow-x-auto bg-white text-black">
       <div className="flex overflow-x-auto space-x-4 w-screen px-4">
         {shishas.map((item, idx) => (
           <div
