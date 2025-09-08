@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 h-full w-full">
         <Image
-          src="/images/hero.webp"
+          src="/images/websiteBg.png"
           alt="hero"
           fill
           priority
